@@ -34,7 +34,7 @@ function countStudents(filePath) {
             }
           }
         }
-  
+
         const numberOfStudents = length - 1;
         response += `Number of students: ${numberOfStudents}\n`;
         for (const [key, value] of Object.entries(fields)) {
